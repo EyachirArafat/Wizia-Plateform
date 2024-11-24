@@ -12,7 +12,7 @@ import Img5 from '../assets/culture.png'
 import google from '../assets/google.png';
 import stripe from '../assets/stripe.png';
 import uber from '../assets/uber.png';
-import path from '../assets/path.png';
+import check from '../assets/check.png';
 import airbnb from '../assets/airbnb.png';
 import mastercard from '../assets/mastercard.png';
 
@@ -55,7 +55,7 @@ function CarouselSection(){
     google,
     stripe,
     uber,
-    path,
+    check,
     airbnb,
     mastercard,
   ];
