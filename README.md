@@ -1,4 +1,4 @@
 # Live Preview
 
-- [Degic.co]()
+- [DegicPlateform](https://degicplateform.vercel.app/)
 
