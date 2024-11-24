@@ -34,14 +34,14 @@ function Header(){
                   <Tabs onChange={(e, newValue)=>(setNewValue(newValue))} value={newValue}>
                     {
                       HeaderIcon.map((list, index)=>(
-                        <Tab key={index} label={list} className='lg:text-lg'/>
+                        <Tab key={index} label={list} className='lg:text-lg hover:text-[#2AB691] hover:font-bold'/>
                       ))
                     }
                 
                     <div className='flex justify-center items-center w-full'>
                       <div className='flex gap-2'>
-                        <Button variant='contained' className='text-[#2AB691] bg-[#2AB691] bg-opacity-10 shadow-none active:shadow-xl active:outline-2 active:outline-[#2AB691] lg:text-lg'>LogIn</Button>
-                        <Button variant='contained' className=' text-white bg-[#2AB691] shadow-none active:shadow-xl lg:text-lg'>SignUp</Button>
+                        <Button variant='contained' className='text-[#2AB691] bg-[#2AB691] bg-opacity-10 shadow-none hover:bg-opacity-100 hover:text-white hover:shadow-xl active:outline-2 active:outline-[#2AB691] lg:text-lg'>LogIn</Button>
+                        <Button variant='contained' className=' text-white bg-[#2AB691] hover:bg-opacity-15 hover:text-[#2AB691] shadow-none active:shadow-xl lg:text-lg'>SignUp</Button>
                       </div>
                     </div>
                   </Tabs>
