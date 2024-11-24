@@ -6,7 +6,7 @@ import UseFullVideo from './components/UseFullVideo';
 import Blog from './components/Blog';
 import CreateQuick from './components/CreateQuickSection';
 import GetMore from './components/GetMoreSection';
-import FooterSection from './components/footer';
+import FooterSection from './components/Footer';
 
 function App() {
 
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
