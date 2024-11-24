@@ -3,11 +3,11 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 // images
-import Img1 from '../assets/Group 35.png'
+import Img1 from '../assets/man.png'
 import Img2 from '../assets/cake.png'
-import Img3 from '../assets/Group 22.png'
-import Img4 from '../assets/Group 37.png'
-import Img5 from '../assets/Group 39.png'
+import Img3 from '../assets/circle.png'
+import Img4 from '../assets/mySpace.png'
+import Img5 from '../assets/culture.png'
 
 import google from '../assets/google.png';
 import stripe from '../assets/stripe.png';

@@ -7,7 +7,7 @@ import XIcon from '@mui/icons-material/X';
 
 
 // images
-import Management from '../assets/Group 31.png';
+import Management from '../assets/document.png';
 import Entertainment from '../assets/gamepad.png';
 import Marketing from '../assets/camera.png';
 import References from '../assets/compus.png';

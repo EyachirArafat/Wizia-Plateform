@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 // images
 import Cake from '../assets/cake.png'
-import Element1 from '../assets/Group 22.png'
+import Element1 from '../assets/circle.png'
 
 
 function Blog(){

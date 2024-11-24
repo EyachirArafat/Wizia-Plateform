@@ -2,9 +2,9 @@ import { Button } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 // images  
-import MySpace from '../assets/Group 37.png';
-import Culture from '../assets/Group 39.png';
-import Craft from '../assets/Group 40.png';
+import MySpace from '../assets/mySpace.png';
+import Culture from '../assets/culture.png';
+import Craft from '../assets/craft.png';
 
 function GetMoreSection(){
 

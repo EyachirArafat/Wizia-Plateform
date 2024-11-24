@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, IconButton } from "@mui/material";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import Thumbnail from '../assets/Mask Group.png'
+import Thumbnail from '../assets/MaskGroup.png'
 
 function UseFullVideo() {
   const [isPlaying, setIsPlaying] = useState(false);
