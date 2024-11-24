@@ -60,7 +60,7 @@ function NavDrawer(){
             {
               NavList.map((list)=>(
                 <React.Fragment key={list.id}>
-                  <ListItemButton>
+                  <ListItemButton onClick={()=>setOpenDrawer(false)}>
                     <ListItemIcon>{list.icon}</ListItemIcon>
                     <ListItemText>{list.text}</ListItemText>
                   </ListItemButton>

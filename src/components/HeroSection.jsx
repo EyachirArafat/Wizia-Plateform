@@ -10,8 +10,8 @@ function HeroSection(){
           <p className="text-opacity-50 md:w-full w-10/12">There are a lot of different components that will help you create the perfect look for your project</p>
           <div className=''>
             <div className='flex gap-2'>
-              <Button variant='contained' className=' text-white bg-[#5F62E2] shadow-none active:shadow-xl lg:text-lg text-nowrap'>Get Started</Button>
-              <Button variant='contained' className='text-[#5F62E2] bg-[#5F62E2] bg-opacity-10 shadow-none active:shadow-xl active:outline-2 active:outline-[#5F62E2] lg:text-lg text-nowrap'>Learn More</Button>
+              <Button variant='contained' className=' text-white bg-[#5F62E2] hover:bg-[#2528eb] shadow hover:shadow-lg lg:text-lg text-nowrap'>Get Started</Button>
+              <Button variant='contained' className='text-[#5F62E2] bg-[#5F62E2] bg-opacity-10 hover:bg-opacity-50 hover:text-white shadow-none active:shadow-xl active:outline-2 active:outline-[#5F62E2] lg:text-lg text-nowrap'>Learn More</Button>
             </div>
           </div>
         </div>

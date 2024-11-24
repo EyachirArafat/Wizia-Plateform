@@ -48,7 +48,7 @@ function Presentations(){
               PreElements.map((item, index)=>(
                 <div key={index} className="md:col-span-2 col-span-4">
                   <div className="flex md:flex-col flex-row justify-center items-center md:text-center bg-white p-3 rounded-lg gap-3 transition-transform hover:scale-105 cursor-pointer">
-                    <img className="sm:w-32 w-24" src={item.image} />
+                    <img className="sm:w-32 w-24 object-cover hover:scale-110 duration-500" src={item.image} />
                     <div className="space-y-1">
                       <h3 className="text-xl font-semibold">References</h3>
                       <p className="text-opacity-50 md:text-[11px]">Software platform for running your new internet business</p>
