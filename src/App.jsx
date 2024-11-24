@@ -2,7 +2,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Presentations from './components/Presentations';
 import CarouselSection from './components/CarouselSection';
-import UseFullVideo from './components/UseFullVideo';
+import UseFullVideo from './components/UseVideo';
 import Blog from './components/Blog';
 import CreateQuick from './components/CreateQuickSection';
 import GetMore from './components/GetMoreSection';
