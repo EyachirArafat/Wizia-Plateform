@@ -6,7 +6,7 @@ import MySpace from '../assets/Group 37.png';
 import Culture from '../assets/Group 39.png';
 import Craft from '../assets/Group 40.png';
 
-function GetMore(){
+function GetMoreSection(){
 
   const MoreFacilities =[
     {
@@ -62,4 +62,4 @@ function GetMore(){
   )
 }
 
-export default GetMore;
+export default GetMoreSection;

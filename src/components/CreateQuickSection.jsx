@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 // images 
 import Bomb from '../assets/bomb.png'
 
-function CreateQuick(){
+function CreateQuickSection(){
   return(
     <section className="contain-fluid bg-[#5F62E2] md:px-16 sm:px-8 px-4">
       <div className="flex flex-col md:flex-row gap-10">
@@ -22,4 +22,4 @@ function CreateQuick(){
   )
 }
 
-export default CreateQuick;
+export default CreateQuickSection;

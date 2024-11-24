@@ -4,9 +4,9 @@ import Presentations from './components/Presentations';
 import CarouselSection from './components/CarouselSection';
 import UseVideo from './components/UseVideo';
 import Blog from './components/Blog';
-import CreateQuick from './components/CreateQuickSection';
-import GetMore from './components/GetMoreSection';
-import FooterSection from './components/Footer';
+import CreateQuickSection from './components/CreateQuickSection';
+import GetMoreSection from './components/GetMoreSection';
+import FooterSection from './components/FooterSection';
 
 function App() {
 
@@ -19,8 +19,8 @@ function App() {
         <CarouselSection/>
         <UseVideo/>
         <Blog/>
-        <CreateQuick/>
-        <GetMore/>
+        <CreateQuickSection/>
+        <GetMoreSection/>
         <FooterSection/>
       </div>
     </>
