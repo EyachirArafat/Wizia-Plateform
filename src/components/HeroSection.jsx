@@ -15,7 +15,7 @@ function HeroSection() {
           <div>
             <p className='text-white text-3xl lg:text-6xl md:text-5xl'><span className='font-semibold'>More</span> <i>leads,<br /></i> <span className='font-semibold'>less</span> <i>people</i>.</p>
           </div>
-          <p className='text-white w-2/3 md:w-1/2 text-opacity-60'>Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</p>
+          <p className='text-white sm:w-2/3 md:w-1/2 text-opacity-60'>Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</p>
           <Button variant="contained" className="text-nowrap"
             sx={{
               backgroundColor: '#0FF1F6',
