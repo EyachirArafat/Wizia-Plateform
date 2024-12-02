@@ -6,6 +6,7 @@
 *.jsx text eol=lf
 *.css text eol=lf
 
+
 # Other file types (use CRLF if needed for Windows systems)
 *.bat text eol=crlf
 *.sh text eol=lf
