@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.shadow{
+  background-size: 1px;
+}

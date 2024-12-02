@@ -1,11 +1,11 @@
-import { Button } from "@mui/material";
+import NavBarSection from "./components/Header/NavBarSection";
 
 function App() {
 
   return (
     <>
-      <div>
-       
+      <div className="bg-primary">
+       <NavBarSection/>
       </div>
     </>
   )
