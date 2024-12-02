@@ -1,4 +1,5 @@
 import NavBarSection from "./components/Header/NavBarSection";
+import HeroSection from "./components/HeroSection";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <div className="bg-primary">
        <NavBarSection/>
+       <HeroSection/>
       </div>
     </>
   )
