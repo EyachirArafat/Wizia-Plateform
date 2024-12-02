@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import NavBarSection from "./components/Header/NavBarSection";
 import HeroSection from "./components/HeroSection";
 import Partners from "./components/Partners";
@@ -6,10 +7,12 @@ function App() {
 
   return (
     <>
-      <div className="bg-primary">
        <NavBarSection/>
+      <div className="bg-primary ">
        <HeroSection/>
        <Partners/>
+       <Features/>
+
       </div>
     </>
   )

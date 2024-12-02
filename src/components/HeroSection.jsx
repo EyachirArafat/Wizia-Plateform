@@ -18,12 +18,13 @@ function HeroSection() {
           <p className='text-white sm:w-2/3 md:w-1/2 text-opacity-60'>Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</p>
           <Button variant="contained" className="text-nowrap"
             sx={{
-              backgroundColor: '#0FF1F6',
+              backgroundColor: 'transparent',
+              border: '1px solid #0FF1F6',
               textTransform: 'none',
-              border: '1px solid transparent',
               '&:hover': {
-                backgroundColor: 'transparent',
-                borderColor: '#0FF1F6',
+                backgroundColor: '#0FF1F6',
+                color: 'black',
+                border: 'transparent',
                 transform: 'scale(1.05)',
               },
             }}>Sign Up for the Beta <ArrowOutwardOutlinedIcon/>

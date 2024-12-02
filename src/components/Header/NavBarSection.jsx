@@ -45,10 +45,12 @@ function NavBarSection(){
                       sx={{
                         backgroundColor: '#0FF1F6',
                         textTransform: 'none',
+                        color: 'black',
                         border: '1px solid transparent',
                         '&:hover': {
                           backgroundColor: 'transparent',
                           borderColor: '#0FF1F6',
+                          color: 'white',
                           transform: 'scale(1.05)',
                         },
                       }}>

@@ -16,7 +16,7 @@ function Partners() {
     <Box>
       <div className='container-fluid flex flex-col justify-center items-center text-center px-4 py-6 bg-secondary space-y-2'>
         <p className='text-neutral font-medium'>Our Trusted Partners</p>
-        <div className='flex flex-wrap justify-center items-center md:gap-12 sm:gap-8 lg:gap-20'>
+        <div className='flex flex-wrap justify-center items-center md:gap-12 sm:gap-8 lg:gap-20 xl:gap-32'>
           {
             PartnersLogo.map((logos)=>(
               <img className='md:w-28 sm:w-24 w-20' src={logos} alt={logos} />
