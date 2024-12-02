@@ -2,15 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-  .socialIcon{
-    @apply bg-white p-1.5 rounded-full text-[#000000c4] cursor-pointer hover:scale-105 hover:text-white transform transition-all duration-500 hover:bg-[#000000c4]
-  }
-}
-
-@layer utilities{
-  .socialIcon1{
-    @apply bg-slate-200 p-1.5 rounded-full text-[#000000c4] cursor-pointer hover:scale-105 hover:text-white transform transition-all duration-500 hover:bg-[#000000c4]
-  }
-}
-
