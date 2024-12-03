@@ -1,7 +1,9 @@
+import Allocation from "./components/Allocation";
 import Features from "./components/Features";
 import NavBarSection from "./components/Header/NavBarSection";
 import HeroSection from "./components/HeroSection";
 import Partners from "./components/Partners";
+import TestimonialCarousel from "./components/Testimonials";
 import TrainUp from "./components/TrainUp";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
        <Partners/>
        <Features/>
        <TrainUp/>
+       <TestimonialCarousel/>
+       <Allocation/>
 
       </div>
     </>
