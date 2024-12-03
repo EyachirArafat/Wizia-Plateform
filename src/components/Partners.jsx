@@ -19,8 +19,10 @@ function Partners() {
         <div className='flex flex-wrap justify-center items-center md:gap-12 sm:gap-8 lg:gap-20 xl:gap-32'>
           {
             PartnersLogo.map((logos)=>(
-              <img className='md:w-28 sm:w-24 w-20' src={logos} alt={logos} />
+              <img className='md:w-28 sm:w-24 w-20 transition-transform duration-300 hover:scale-125' src={logos} alt={logos} />
             ))
+            
+            
           }
         </div>
       </div>
