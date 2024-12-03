@@ -44,29 +44,36 @@ function NavDrawer() {
   const [openDrawer, setOpenDrawer] = useState(false)
   return (
     <Box sx={{display: "flex", }}>
-      <Drawer anchor='left' open={openDrawer} onClose={()=>(setOpenDrawer(false))}>
+      <Drawer anchor='left' open={openDrawer} onClose={()=>(setOpenDrawer(false))} 
+        sx={{
+          "& .MuiDrawer-paper": {
+            backgroundColor: "#002228", 
+            color: "white",
+          },
+        }}
+        >
         <List>
           {
             DrawerList.map((item) => (
               <React.Fragment key={item.id}>
                 <ListItemButton sx={{
                   '&:hover .MuiListItemIcon-root': {
-                    color: '#2AB691',
+                    color: '#0FF1F6',
                     transform: 'scale(1.3)',
                     transition: 'transform 0.3s ease, color 0.3s ease'
                    },
                    }} 
                    onClick={()=>(setOpenDrawer(false))}>
-                  <ListItemIcon ><item.icon /></ListItemIcon>
+                  <ListItemIcon sx={{color: 'white'}}><item.icon /></ListItemIcon>
                   <ListItemText>{item.text}</ListItemText>
                 </ListItemButton>
-                {item.text === "Solutions" && <Divider/>}
+                {item.text === "Solutions" && <Divider sx={{backgroundColor: "#045a5c"}}/>}
               </React.Fragment>
             ))
           }
         </List>
       </Drawer>
-      <IconButton className='text-white' onClick={()=>setOpenDrawer(prevState => !prevState)}><MenuIcon/></IconButton>
+      <IconButton className='text-neutral shadow-md hover:shadow-neutral focus:scale-90' onClick={()=>setOpenDrawer(prevState => !prevState)}><MenuIcon/></IconButton>
     </Box>
   )
 }
