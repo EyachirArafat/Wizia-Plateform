@@ -7,7 +7,7 @@ function Allocation() {
     {percentage: "35%", title: <>Improvement in <br/>Meetings Booked</>},
   ]
   return (
-    <div style={{background: "url(/src/assets/background2.svg)"}} className='bg-no-repeat md:bg-left bg-center bg-cover rounded-lg  mx-6 bg-secondary grid md:grid-cols-3 md:min-h-[50vh] lg:min-h-[55vh] min-h-[40vh] lg:px-40 md:px-24 px-1'>
+    <div style={{background: "url(/assets/background2.svg)"}} className='bg-no-repeat md:bg-left bg-center bg-cover rounded-lg  mx-6 bg-secondary grid md:grid-cols-3 md:min-h-[50vh] lg:min-h-[55vh] min-h-[40vh] lg:px-40 md:px-24 px-1'>
       
       <div className='md:col-span-2 col-span-1 md:p-8 p-10 space-y-4 md:space-y-8 h-full flex flex-col justify-center'>
         <div className='space-y-4 md:space-y-8'>

@@ -57,7 +57,7 @@ function TestimonialCarousel() {
   return (
     <div className="min-h-[40vh] flex flex-col justify-center items-center p-6 px-10 space-y-4 text-center text-white relative">
       <div className="text-neutral">
-        <img src="/src/assets/quote.svg" alt="quote.svg" />
+        <img src="/assets/quote.svg" alt="quote.svg" />
       </div>
 
       <p className="text-lg md:text-xl italic">

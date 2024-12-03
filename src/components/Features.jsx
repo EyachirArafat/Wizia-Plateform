@@ -1,9 +1,9 @@
 import React from 'react'
 
 // icons 
-import Control from '/src/assets/magic-wand.svg'
-import Scalable from '/src/assets/graph-duotone.svg'
-import Flexible from '/src/assets/arrows-out-cardinal.svg'
+import Control from '/assets/magic-wand.svg'
+import Scalable from '/assets/graph-duotone.svg'
+import Flexible from '/assets/arrows-out-cardinal.svg'
 
 function Features() {
   const FeaturesList =[

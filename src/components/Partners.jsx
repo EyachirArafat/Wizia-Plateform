@@ -2,11 +2,11 @@ import React from 'react'
 import { Box } from '@mui/material'
 
 // Partners Logo
-import BackHub from '/src/assets/BackHub-logo.svg'
-import CableLabs from '/src/assets/CableLabs-logo.svg'
-import DBS from '/src/assets/DBS-logo.svg'
-import EasyEuro from '/src/assets/EasyEuro-logo.svg'
-import AMD from '/src/assets/AMD-logo.svg'
+import BackHub from '/assets/BackHub-logo.svg'
+import CableLabs from '/assets/CableLabs-logo.svg'
+import DBS from '/assets/DBS-logo.svg'
+import EasyEuro from '/assets/EasyEuro-logo.svg'
+import AMD from '/assets/AMD-logo.svg'
 
 function Partners() {
 

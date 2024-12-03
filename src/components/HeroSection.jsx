@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div
     style={{
-      backgroundImage: "url(/src/assets/hero-background.svg)"}}
+      backgroundImage: "url(/assets/hero-background.svg)"}}
       className='container-fluid mx-auto pt-10 bg-cover bg-no-repeat bg-center'>
 
       <div className='flex lg:px-40 md:px-24 px-10 justify-start items-center my-auto min-h-[40vh] sm:min-h-[50vh] md:min-h-[60vh]'>
