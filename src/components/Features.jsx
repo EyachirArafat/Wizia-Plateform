@@ -28,7 +28,7 @@ function Features() {
       {
         FeaturesList.map((list, index) =>(
           <div key={index} className='flex md:flex-col flex-row gap-4'>
-            <img className='md:w-12 sm:w-14 w-16 md:h-12 sm:h-14 h-16 hover:scale-125 transition-transform' src={list.icon} alt={list.icon} />
+            <img className='md:w-10 sm:w-12 w-14 md:h-10 sm:h-12 h-14 hover:scale-125 transition-transform' src={list.icon} alt={list.icon} />
             <div className='text-white space-y-2'>
               <h3 className='xl:text-4xl lg:text-3xl md:text-2xl text-xl'>{list.title}</h3>
               <p>{list.Description}</p>

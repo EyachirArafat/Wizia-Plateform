@@ -9,7 +9,7 @@ function HeroSection() {
       backgroundImage: "url(/assets/hero-background.svg)"}}
       className='container-fluid mx-auto pt-10 bg-cover bg-no-repeat bg-center'>
 
-      <div className='flex lg:px-40 md:px-24 px-10 justify-start items-center min-h-[40vh] sm:min-h-[45vh] md:min-h-[60vh] sm:text-start text-center'>
+      <div className='flex lg:px-40 md:px-24 px-10 pb-6 justify-start items-center min-h-[40vh] sm:min-h-[50vh] md:min-h-[60vh] sm:text-start text-center'>
         <div className='my-auto md:space-y-6 space-y-4'>
           <p className='text-neutral font-medium'>AI SDRs (aiDRs)</p>
           <div>
